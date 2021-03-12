@@ -14,7 +14,7 @@ namespace RestaurantDemoApp.Repositories
         {
             objRestaurantDbEntities = new RestaurantDBEntities();
         }
-        public IEnumerable<SelectListItem> GetAllCustomers()
+        public IEnumerable<SelectListItem> GetAllCustomers() 
         {
             var objSelectListItems =
                   new List<SelectListItem>();
