@@ -17,7 +17,7 @@ namespace RestaurantDemoApp.Repositories
         public IEnumerable<SelectListItem> GetAllCustomers() 
         {
             var objSelectListItems =
-                  new List<SelectListItem>();//
+                  new List<SelectListItem>();////
 
             objSelectListItems = (from obj in objRestaurantDbEntities.Customers
                                   select new SelectListItem()
